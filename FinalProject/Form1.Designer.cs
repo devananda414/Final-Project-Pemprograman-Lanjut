@@ -35,20 +35,20 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtNoTiket = new System.Windows.Forms.TextBox();
+            this.txtPlat = new System.Windows.Forms.TextBox();
+            this.txtCheckIn = new System.Windows.Forms.TextBox();
+            this.txtCheckOut = new System.Windows.Forms.TextBox();
+            this.txtTanggal = new System.Windows.Forms.TextBox();
+            this.chkMotor = new System.Windows.Forms.CheckBox();
+            this.chkMobil = new System.Windows.Forms.CheckBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnSimpan = new System.Windows.Forms.Button();
+            this.btnCetak = new System.Windows.Forms.Button();
+            this.btnKeluar = new System.Windows.Forms.Button();
+            this.txtPetugas = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -115,67 +115,67 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Total";
             // 
-            // textBox1
+            // txtNoTiket
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtNoTiket.Location = new System.Drawing.Point(84, 41);
+            this.txtNoTiket.Name = "txtNoTiket";
+            this.txtNoTiket.Size = new System.Drawing.Size(100, 20);
+            this.txtNoTiket.TabIndex = 7;
             // 
-            // textBox2
+            // txtPlat
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtPlat.Location = new System.Drawing.Point(84, 67);
+            this.txtPlat.Name = "txtPlat";
+            this.txtPlat.Size = new System.Drawing.Size(100, 20);
+            this.txtPlat.TabIndex = 8;
             // 
-            // textBox3
+            // txtCheckIn
             // 
-            this.textBox3.Location = new System.Drawing.Point(84, 93);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtCheckIn.Location = new System.Drawing.Point(84, 93);
+            this.txtCheckIn.Name = "txtCheckIn";
+            this.txtCheckIn.Size = new System.Drawing.Size(100, 20);
+            this.txtCheckIn.TabIndex = 9;
             // 
-            // textBox4
+            // txtCheckOut
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 119);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 12;
+            this.txtCheckOut.Location = new System.Drawing.Point(84, 119);
+            this.txtCheckOut.Name = "txtCheckOut";
+            this.txtCheckOut.Size = new System.Drawing.Size(100, 20);
+            this.txtCheckOut.TabIndex = 12;
             // 
-            // textBox5
+            // txtTanggal
             // 
-            this.textBox5.Location = new System.Drawing.Point(84, 145);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 13;
+            this.txtTanggal.Location = new System.Drawing.Point(84, 145);
+            this.txtTanggal.Name = "txtTanggal";
+            this.txtTanggal.Size = new System.Drawing.Size(100, 20);
+            this.txtTanggal.TabIndex = 13;
             // 
-            // checkBox1
+            // chkMotor
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(84, 174);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(53, 17);
-            this.checkBox1.TabIndex = 14;
-            this.checkBox1.Text = "Motor";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkMotor.AutoSize = true;
+            this.chkMotor.Location = new System.Drawing.Point(84, 174);
+            this.chkMotor.Name = "chkMotor";
+            this.chkMotor.Size = new System.Drawing.Size(53, 17);
+            this.chkMotor.TabIndex = 14;
+            this.chkMotor.Text = "Motor";
+            this.chkMotor.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chkMobil
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(143, 174);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(51, 17);
-            this.checkBox2.TabIndex = 15;
-            this.checkBox2.Text = "Mobil";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkMobil.AutoSize = true;
+            this.chkMobil.Location = new System.Drawing.Point(143, 174);
+            this.chkMobil.Name = "chkMobil";
+            this.chkMobil.Size = new System.Drawing.Size(51, 17);
+            this.chkMobil.TabIndex = 15;
+            this.chkMobil.Text = "Mobil";
+            this.chkMobil.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // txtTotal
             // 
-            this.textBox6.Location = new System.Drawing.Point(84, 197);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 16;
+            this.txtTotal.Location = new System.Drawing.Point(84, 197);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(100, 20);
+            this.txtTotal.TabIndex = 16;
             // 
             // listBox1
             // 
@@ -185,56 +185,56 @@
             this.listBox1.Size = new System.Drawing.Size(541, 212);
             this.listBox1.TabIndex = 17;
             // 
-            // button1
+            // btnBatal
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(15, 238);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Batal";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBatal.BackColor = System.Drawing.Color.Red;
+            this.btnBatal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBatal.Location = new System.Drawing.Point(15, 238);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(75, 23);
+            this.btnBatal.TabIndex = 18;
+            this.btnBatal.Text = "Batal";
+            this.btnBatal.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnSimpan
             // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(109, 238);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Simpan";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSimpan.BackColor = System.Drawing.Color.Lime;
+            this.btnSimpan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSimpan.Location = new System.Drawing.Point(109, 238);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.btnSimpan.TabIndex = 19;
+            this.btnSimpan.Text = "Simpan";
+            this.btnSimpan.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnCetak
             // 
-            this.button3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(542, 239);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Cetak";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCetak.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCetak.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCetak.Location = new System.Drawing.Point(542, 239);
+            this.btnCetak.Name = "btnCetak";
+            this.btnCetak.Size = new System.Drawing.Size(75, 23);
+            this.btnCetak.TabIndex = 20;
+            this.btnCetak.Text = "Cetak";
+            this.btnCetak.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnKeluar
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(656, 239);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "Keluar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnKeluar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnKeluar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKeluar.Location = new System.Drawing.Point(656, 239);
+            this.btnKeluar.Name = "btnKeluar";
+            this.btnKeluar.Size = new System.Drawing.Size(75, 23);
+            this.btnKeluar.TabIndex = 21;
+            this.btnKeluar.Text = "Keluar";
+            this.btnKeluar.UseVisualStyleBackColor = false;
             // 
-            // textBox7
+            // txtPetugas
             // 
-            this.textBox7.Location = new System.Drawing.Point(84, 15);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 22;
+            this.txtPetugas.Location = new System.Drawing.Point(84, 15);
+            this.txtPetugas.Name = "txtPetugas";
+            this.txtPetugas.Size = new System.Drawing.Size(100, 20);
+            this.txtPetugas.TabIndex = 22;
             // 
             // label8
             // 
@@ -251,20 +251,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 275);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtPetugas);
+            this.Controls.Add(this.btnKeluar);
+            this.Controls.Add(this.btnCetak);
+            this.Controls.Add(this.btnSimpan);
+            this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTotal);
+            this.Controls.Add(this.chkMobil);
+            this.Controls.Add(this.chkMotor);
+            this.Controls.Add(this.txtTanggal);
+            this.Controls.Add(this.txtCheckOut);
+            this.Controls.Add(this.txtCheckIn);
+            this.Controls.Add(this.txtPlat);
+            this.Controls.Add(this.txtNoTiket);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -288,20 +288,20 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtNoTiket;
+        private System.Windows.Forms.TextBox txtPlat;
+        private System.Windows.Forms.TextBox txtCheckIn;
+        private System.Windows.Forms.TextBox txtCheckOut;
+        private System.Windows.Forms.TextBox txtTanggal;
+        private System.Windows.Forms.CheckBox chkMotor;
+        private System.Windows.Forms.CheckBox chkMobil;
+        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.Button btnSimpan;
+        private System.Windows.Forms.Button btnCetak;
+        private System.Windows.Forms.Button btnKeluar;
+        private System.Windows.Forms.TextBox txtPetugas;
         private System.Windows.Forms.Label label8;
     }
 }
